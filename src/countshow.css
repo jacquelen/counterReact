@@ -1,0 +1,23 @@
+.show{
+    width: 35vw;
+    height: 50vh;
+
+    margin: auto;
+}
+.count{
+ color: indigo;
+ width: 10vw;
+ margin: auto;
+ line-height: 0;
+ border-bottom: 2px solid greenyellow;
+ font-size: 3.5rem;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    margin: 2em;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    font-size: 1.5rem;
+    padding: 0.5em;
+    border-radius: 30%;
+}
