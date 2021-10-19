@@ -1,15 +1,32 @@
 
 import './App.css';
-import {Counter} from './counter'
-import {CountBtn} from './countbtn'
+import{Navbar} from './navbar/navbar'
 import {ShowCount} from './countshow'
+import  {Home} from './home/home'
+import{Shop} from './shop/shop'
+import {Detail} from './detail/detail'
+import {Footer} from './footer/footer'
+import{BrowserRouter, Route , Switch} from 'react-router-dom'
+
 function App() {
   return (
+    <>
+      <BrowserRouter>
     <div className="App">
-      {/* <Counter/> */}
-     {/* <CountBtn/> */}
-     < ShowCount/>
+      <Navbar/>
+      <Switch>
+      <Route component={Home} path="/"exact />
+      <Route component={Shop}  path="/shop" exact />
+      <Route component={Detail}  path="/shop/:id"/>
+      <Route component={ShowCount}  path="/counter"/>
+      </Switch>
+       {/* <Shop/>
+       <Detail/>
+     < ShowCount/> */}
     </div>
+    </BrowserRouter>
+     <Footer/>
+    </>
   );
 }
 
