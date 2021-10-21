@@ -6,6 +6,7 @@ import  {Home} from './home/home'
 import{Shop} from './shop/shop'
 import {Detail} from './detail/detail'
 import {Footer} from './footer/footer'
+import { Todo } from "./todolist/todo";
 import{BrowserRouter, Route , Switch} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route component={Shop}  path="/shop" exact />
       <Route component={Detail}  path="/shop/:id"/>
       <Route component={ShowCount}  path="/counter"/>
+      <Route component={Todo}  path="/todolist"/>
       </Switch>
        {/* <Shop/>
        <Detail/>
