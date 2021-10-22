@@ -18,6 +18,8 @@ return(
                    <li><Link to="/shop"> Shop </Link> </li>
                    <li><Link to="/counter"> Counter </Link> </li>
                    <li><Link to="todolist"> Todo-List </Link> </li>
+                   <li><Link to="/register">log in</Link></li>
+                   <li><Link to="/login">register</Link></li>
                 
                </ul>
            </nav>

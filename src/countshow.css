@@ -39,7 +39,7 @@
 }
 
 .nav-ul{
-    flex-basis: 40vw;
+    flex-basis: 60vw;
 }
 .nav-ul li{
     list-style: none;
@@ -151,6 +151,66 @@ font-size: 1.5em;
 .text p{
     font-size:1.7rem ;
 }
-.list{
-    
+.form{
+    width: 38%;
+    margin: auto;
+    margin-top: 5em;
+}
+.input{
+    width: 27vw;
+    height: 0.4vh;
+    border-radius: 20px;
+    padding: 1.5em;
+    margin: 0.5em;
+}
+.btn-register{
+    margin: auto;
+    width: 10vw;
+    height: 4.5vh;
+    border-radius: 20px;
+    margin-top: 1.5em;
+    font-size: large;
+    font-weight: 600;
+}
+.log-email{
+    color: brown;
+    font-size: 2rem;
+    margin: 1em;
+}
+.log-input{
+    width: 35vw;
+    height: 4.5vh;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.h-log{
+    background-color: brown;
+    height: 9vh;
+    margin-top: 2em;
+    color: white;
+    padding: 1em;
+    font-size: 2.5em;
+}
+.h-register{
+    background-color: goldenrod;
+    height: 9vh;
+    margin-top: 2em;
+    color: white;
+    padding: 1em;
+    font-size: 2.5em;
+}
+.field{
+    border-radius: 20px;
+    margin: 1.5em;
+    width: 15vw;
+    height: 2.5vh;
+    padding: 1em;
+}
+.secondary{
+    background-color: rgb(233, 14, 14);
+    color: white;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 50%;
 }

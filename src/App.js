@@ -7,6 +7,8 @@ import{Shop} from './shop/shop'
 import {Detail} from './detail/detail'
 import {Footer} from './footer/footer'
 import { Todo } from "./todolist/todo";
+import { Form } from './form/form';
+import {Log} from "./login/login"
 import{BrowserRouter, Route , Switch} from 'react-router-dom'
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Route component={Detail}  path="/shop/:id"/>
       <Route component={ShowCount}  path="/counter"/>
       <Route component={Todo}  path="/todolist"/>
+      <Route component={Form} path="/register"/>
+      <Route component={Log} path="/login"/>
       </Switch>
        {/* <Shop/>
        <Detail/>
