@@ -20,7 +20,8 @@ return(
                    <li><Link to="todolist"> Todo-List </Link> </li>
                    <li><Link to="/register">log in</Link></li>
                    <li><Link to="/login">register</Link></li>
-                
+                   <li><Link to="/reuseform">reuse component</Link></li>
+                   
                </ul>
            </nav>
 

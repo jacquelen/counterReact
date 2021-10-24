@@ -39,7 +39,7 @@ function Logform(){
             return (
               <Form>
                   <h2 className="h-log" > REGISTER PAGE </h2>
-                <div style={{ padding: 20 }}>
+                <div style={{ padding: 10 }}>
                 <Field name="username">
                     {(formikField) => {
                       return (
@@ -146,7 +146,7 @@ function Logform(){
                     }}
                   </Field>
                   {/*  */}
-                  <div id="my-radio-group" style={{ margin: "0.5em" ,fontSize:"1.5rem",display:"inline-block" }}> <strong> Gender:</strong></div>
+          <div id="my-radio-group" style={{ margin: "0.5em" ,fontSize:"1.5rem",display:"inline-block" }}> <strong> Gender:</strong></div>
           <div role="group" aria-labelledby="my-radio-group" style={{ margin:"0.2em" , display:"inline-block}"}}  >
             <label  style={{ margin:"0.2em" ,fontSize:"1.5em" }} >
               <Field type="radio" name="gender" value="Female" style={{ margin:"0.3em"}} />

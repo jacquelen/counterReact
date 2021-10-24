@@ -49,6 +49,7 @@ function Forminput(){
         value={formik.values.password}
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}
+        style={{display:"block",margin:"0.5em auto"}}
         />
 
         { formik.touched.password && formik.errors.password && (
@@ -56,7 +57,7 @@ function Forminput(){
         )}
       
 {/*  */}
-        <label htmlFor="rememberMe" style={{ display: "block" }}>
+        <label htmlFor="rememberMe" style={{ display: "inline" }}>
           remember me
         </label>
         <input
